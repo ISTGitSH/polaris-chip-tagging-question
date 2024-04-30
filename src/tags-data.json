@@ -1,0 +1,88 @@
+{
+    "default": {
+        "default btn - true": {
+            "correct": true,
+            "feedback": "default feedback option true"
+        },
+        "default btn - false": {
+            "correct": false,
+            "feedback": "default feedback option false"
+        }
+    },
+    "hax-logo": {
+        "Good Form": {
+            "correct": true,
+            "feedback": "Correct: The shape of the vase clearly demonstrates craftsmanship"
+        },
+        "AI": {
+            "correct": true,
+            "feedback": "Correct: While a modification of prior work, this is still AI generative work"
+        },
+        "Original Work": {
+            "correct": true,
+            "feedback": "Correct: this character is not based on any person, place, or existing trope"
+        },
+
+
+        "Poor Taste": {
+            "correct": false,
+            "feedback": "Incorrect: Taste is in the eye of the designer as well as the viewer"            
+        },
+        "Contrasting Themes": {
+            "correct": false,
+            "feedback": "Incorrect: There is uniformity in the shape, but there is no depth to this media to imply that it is contrasting with other figures"            
+        },
+        "Shading": {
+            "correct": false,
+            "feedback": "Incorrect: while there is a light source and a shadow cast, shading is a term used for pencil based sketching"            
+        },
+        "Accessible": {
+            "correct": false,
+            "feedback": "Incorrect: the color scheme while high contrast in some areas, loses form in others and has written text unrelated to the character"            
+        }
+    },
+    "fruit": {
+        "AI Generated": {
+            "correct": true,
+            "feedback": "Correct: The image is AI generated"
+        },
+        "Has Grapes": {
+            "correct": true,
+            "feedback": "Correct: The image has green grapes"            
+        },
+        "Has Berries": {
+            "correct": true,
+            "feedback": "Correct: The image has blackberries"            
+        },
+        "Has an Orange": {
+            "correct": true,
+            "feedback": "Correct: There is an orange on the ground"            
+        },
+        "Has Healthy Foods": {
+            "correct": true,
+            "feedback": "Correct: The image contains fruits and vegetables"            
+        },
+
+
+        "Is a painting": {
+            "correct": false,
+            "feedback": "Incorrect: The image is made by AI, not painted"            
+        },
+        "Is a photo": {
+            "correct": false,
+            "feedback": "Incorrect: The image is made by AI, not a photo"            
+        },
+        "Has Waffles": {
+            "correct": false,
+            "feedback": "Incorrect: There is only fruit in the image"            
+        },
+        "Is Upside Down": {
+            "correct": false,
+            "feedback": "Incorrect: The image shows a bowl that is normally placed"            
+        },
+        "Has Cucumbers": {
+            "correct": false,
+            "feedback": "Incorrect: The image has no cucumbers"            
+        }
+    }
+}
